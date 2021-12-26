@@ -15,3 +15,8 @@ hs_err_pid*
 target
 src/test/resources/depositsolution
 src/test/java/com/depositsolution
+
+# skalng 2021-12-26
+.classpath
+.project
+.settings
