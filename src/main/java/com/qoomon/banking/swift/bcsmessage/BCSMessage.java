@@ -24,6 +24,7 @@ import java.util.Map;
  * 31                                      -  Kto.Nr. Auftraggeber / Zahlungsempf.
  * 32, 33                                  -  Name Auftraggeber / Zahlungsempf.
  * 34                                      -  Textschlüsselergänzung
+ * 38                                      -  IBAN
  * 60, 61, 62, 63                          -  Fortsetzung Verwendungszweck
  * </pre>
  */
