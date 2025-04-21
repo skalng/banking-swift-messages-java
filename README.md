@@ -1,30 +1,18 @@
-# Banking Swift Messages Parser and Composer
+# Banking Swift Messages Parser and Composer [![starline](https://starlines.qoo.monster/assets/qoomon/banking-swift-messages-java)](https://github.com/qoomon/starline)
 
 Parser for Financial SWIFT Messages
 SWIFT = Society for Worldwide Interbank Financial Telecommunication
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-
 [![Build Workflow](https://github.com/qoomon/banking-swift-messages-java/workflows/Build/badge.svg)](https://github.com/qoomon/banking-swift-messages-java/actions)
-
-
-[![Dependency Monitoring](https://badgen.net/badge/dependency%20monitoring/%20/green?icon=dependabot)](https://github.com/qoomon/banking-swift-messages-java/pulls/app%2Fdependabot-preview)
-
-
-[![Known Vulnerabilities](https://snyk.io/test/github/qoomon/banking-swift-messages-java/badge.svg)](https://snyk.io/test/github/qoomon/banking-swift-messages-java)
-
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/e611239eea560ee9c72c/maintainability)](https://codeclimate.com/github/qoomon/banking-swift-messages-java/maintainability)
-
 [![Test Coverage](https://api.codeclimate.com/v1/badges/e611239eea560ee9c72c/test_coverage)](https://codeclimate.com/github/qoomon/banking-swift-messages-java/test_coverage)
-
-
-
 
 ### Releases
 
 [![Release](https://jitpack.io/v/qoomon/banking-swift-messages-java.svg)](https://jitpack.io/#qoomon/banking-swift-messages-java)
+
+> [!Important]
+> From version `2.0.0` on Java 21 is required
 
 
 #### Supported Message Types (so far)
@@ -32,6 +20,10 @@ SWIFT = Society for Worldwide Interbank Financial Telecommunication
 * **MT942**
 
 If you need more MT formats just let me know and create a new [issue](https://github.com/qoomon/banking-swift-messages-java/issues)
+
+
+#### Usage
+see [tests](/src/test/java/com/qoomon/banking/swift/message/SwiftMessageReaderTest.java)
 
 
 ## Dev Notes
